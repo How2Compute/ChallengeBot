@@ -60,7 +60,7 @@ async def on_ready():
 # Gets called whenever a message is sent.
 @client.event
 async def on_message(message):
-    # Create the parameters to later pass into a command (if required)
+    # Create the parameters to later pass into a command (if required).
     args = message.content.split()
     eventData = EventData(message.channel, message.author, args)
     # Setup the bot
