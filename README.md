@@ -16,3 +16,4 @@ Usage: !submissions (optional) <users id>
 - Make submissions convert username -> id
 - Implement create challenge function
 - Implement stop challenge function
+- Fix line-ending issue where it shows a red ^M
