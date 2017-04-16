@@ -8,7 +8,6 @@ from sqlalchemy import Column, ForeignKey, Integer, String, DateTime, orm
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
-from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from submission_obj import Submission
